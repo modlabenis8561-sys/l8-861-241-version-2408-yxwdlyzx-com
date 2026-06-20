@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+<title>视频搜索 - 免费在线视频</title>
+    <meta name="description" content="免费在线视频搜索页面，可按片名、地区、类型、年份和标签查找国产、欧美、亚洲、日韩视频资源。">
+    <meta name="keywords" content="免费在线视频,国产视频,欧美视频,亚洲视频,日韩视频,高清播放,免费观看,热门影视,在线观看,视频资源,视频搜索,影片筛选">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="免费在线视频">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">免费在线视频</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link" href="./categories.html">分类</a>
+                <a class="nav-link" href="./all-movies.html">片库</a>
+                <a class="nav-link" href="./ranking.html">排行</a>
+                <a class="nav-link is-active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索视频..." aria-label="搜索视频">
+            <button type="submit" aria-label="搜索">⌕</button>
+        </form>
+        <button class="mobile-menu-button" type="button" aria-label="打开菜单" data-menu-button>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+        <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类</a>
+            <a class="nav-link" href="./all-movies.html">片库</a>
+            <a class="nav-link" href="./ranking.html">排行</a>
+            <a class="nav-link is-active" href="./search.html">搜索</a>
+        <form action="./search.html" method="get" data-search-form>
+            <input type="search" name="q" placeholder="搜索视频..." aria-label="搜索视频">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+<main>
+<section class="page-hero search-hero container">
+    <span class="eyebrow">视频搜索</span>
+    <h1>搜索免费在线视频</h1>
+    <p>可按片名、地区、类型、年份、题材和标签快速筛选。</p>
+    <form class="search-page-form" action="./search.html" method="get" data-live-search-form>
+        <input type="search" name="q" placeholder="输入片名、地区、年份或标签" aria-label="搜索关键词" data-search-input>
+        <button type="submit">搜索</button>
+    </form>
+    <div class="filter-row">
+        <select data-region-filter aria-label="地区筛选">
+            <option value="">全部地区</option>
+            <option value="东欧 (虚构)">东欧 (虚构)</option>
+<option value="中东/美国合拍">中东/美国合拍</option>
+<option value="中国">中国</option>
+<option value="中国内地">中国内地</option>
+<option value="中国台湾">中国台湾</option>
+<option value="中国台湾/中国大陆">中国台湾/中国大陆</option>
+<option value="中国台湾/新加坡">中国台湾/新加坡</option>
+<option value="中国台湾/美国">中国台湾/美国</option>
+<option value="中国大陆">中国大陆</option>
+<option value="中国大陆,中国香港">中国大陆,中国香港</option>
+<option value="中国大陆,泰国">中国大陆,泰国</option>
+<option value="中国大陆/日本">中国大陆/日本</option>
+<option value="中国大陆/泰国">中国大陆/泰国</option>
+<option value="中国大陆/美国">中国大陆/美国</option>
+<option value="中国大陆/香港">中国大陆/香港</option>
+<option value="中国香港">中国香港</option>
+<option value="中国香港/中国大陆">中国香港/中国大陆</option>
+<option value="中国香港/泰国">中国香港/泰国</option>
+<option value="中国香港/菲律宾">中国香港/菲律宾</option>
+<option value="中国香港/韩国">中国香港/韩国</option>
+<option value="中国香港/马来西亚">中国香港/马来西亚</option>
+<option value="丹麦">丹麦</option>
+<option value="丹麦/德国">丹麦/德国</option>
+<option value="丹麦/法国">丹麦/法国</option>
+<option value="乌克兰">乌克兰</option>
+<option value="乌拉圭/阿根廷">乌拉圭/阿根廷</option>
+<option value="以色列">以色列</option>
+<option value="以色列/德国">以色列/德国</option>
+<option value="伊拉克/法国">伊拉克/法国</option>
+<option value="伊朗">伊朗</option>
+<option value="伊朗,法国">伊朗,法国</option>
+<option value="俄罗斯">俄罗斯</option>
+<option value="俄罗斯/美国">俄罗斯/美国</option>
+<option value="俄罗斯/英国">俄罗斯/英国</option>
+<option value="加拿大">加拿大</option>
+<option value="加拿大/法国">加拿大/法国</option>
+<option value="北欧">北欧</option>
+<option value="南非">南非</option>
+<option value="印度">印度</option>
+<option value="印度尼西亚">印度尼西亚</option>
+<option value="台湾">台湾</option>
+<option value="哈萨克斯坦">哈萨克斯坦</option>
+<option value="哥伦比亚">哥伦比亚</option>
+<option value="土耳其">土耳其</option>
+<option value="塞尔维亚">塞尔维亚</option>
+<option value="墨西哥">墨西哥</option>
+<option value="墨西哥/美国">墨西哥/美国</option>
+<option value="奥地利">奥地利</option>
+<option value="奥地利/卢森堡">奥地利/卢森堡</option>
+<option value="巴西">巴西</option>
+<option value="巴西/英国">巴西/英国</option>
+<option value="德国">德国</option>
+<option value="德国/中国大陆">德国/中国大陆</option>
+<option value="德国/奥地利">德国/奥地利</option>
+<option value="意大利">意大利</option>
+<option value="意大利/中国">意大利/中国</option>
+<option value="意大利/中国大陆">意大利/中国大陆</option>
+<option value="意大利/法国">意大利/法国</option>
+<option value="意大利/美国">意大利/美国</option>
+<option value="意大利/英国">意大利/英国</option>
+<option value="挪威">挪威</option>
+<option value="挪威/冰岛">挪威/冰岛</option>
+<option value="新加坡">新加坡</option>
+<option value="新西兰">新西兰</option>
+<option value="日本">日本</option>
+<option value="日本,中国大陆">日本,中国大陆</option>
+<option value="日本,法国">日本,法国</option>
+<option value="日本/加拿大">日本/加拿大</option>
+<option value="日本/新加坡">日本/新加坡</option>
+<option value="日本/法国">日本/法国</option>
+<option value="日本/美国">日本/美国</option>
+<option value="日本/香港">日本/香港</option>
+<option value="比利时/法国">比利时/法国</option>
+<option value="法国">法国</option>
+<option value="法国,德国">法国,德国</option>
+<option value="法国,比利时">法国,比利时</option>
+<option value="法国/中国合拍">法国/中国合拍</option>
+<option value="法国/中国大陆">法国/中国大陆</option>
+<option value="法国/加拿大">法国/加拿大</option>
+<option value="法国/印度">法国/印度</option>
+        </select>
+        <select data-type-filter aria-label="类型筛选">
+            <option value="">全部类型</option>
+            <option value="Movie">Movie</option>
+<option value="OVA">OVA</option>
+<option value="TV Series">TV Series</option>
+<option value="TV series">TV series</option>
+<option value="TV 剧集">TV 剧集</option>
+<option value="TV剧集">TV剧集</option>
+<option value="TV动画">TV动画</option>
+<option value="剧集">剧集</option>
+<option value="剧集 古装/战争">剧集 古装/战争</option>
+<option value="剧集 喜剧/剧情">剧集 喜剧/剧情</option>
+<option value="剧集/动画">剧集/动画</option>
+<option value="剧集/季播">剧集/季播</option>
+<option value="剧集/特别篇">剧集/特别篇</option>
+<option value="剧集/综艺">剧集/综艺</option>
+<option value="动漫">动漫</option>
+<option value="动画">动画</option>
+<option value="动画/剧集">动画/剧集</option>
+<option value="动画剧集">动画剧集</option>
+<option value="动画电影">动画电影</option>
+<option value="戏曲电影">戏曲电影</option>
+<option value="特摄剧">特摄剧</option>
+<option value="电影">电影</option>
+<option value="电影 动作">电影 动作</option>
+<option value="电影/剧集">电影/剧集</option>
+<option value="电影/动画">电影/动画</option>
+<option value="电影/纪录">电影/纪录</option>
+<option value="电影/音乐">电影/音乐</option>
+<option value="电影版">电影版</option>
+<option value="电视剧">电视剧</option>
+<option value="电视剧 (22集)">电视剧 (22集)</option>
+<option value="电视剧(10集)">电视剧(10集)</option>
+<option value="电视剧/布袋戏">电视剧/布袋戏</option>
+<option value="电视剧/第一季">电视剧/第一季</option>
+<option value="电视剧/迷你剧">电视剧/迷你剧</option>
+<option value="电视剧特别篇">电视剧特别篇</option>
+<option value="电视剧集">电视剧集</option>
+<option value="真人秀">真人秀</option>
+<option value="短片">短片</option>
+<option value="纪录片">纪录片</option>
+<option value="纪录片/伪纪录片">纪录片/伪纪录片</option>
+<option value="纪录片/电影">纪录片/电影</option>
+<option value="纪录片/系列">纪录片/系列</option>
+<option value="纪录片剧集">纪录片剧集</option>
+<option value="综艺">综艺</option>
+<option value="综艺(单口喜剧)">综艺(单口喜剧)</option>
+<option value="综艺/剧集">综艺/剧集</option>
+<option value="综艺/晚会">综艺/晚会</option>
+<option value="综艺/特别篇">综艺/特别篇</option>
+<option value="综艺/真人秀">综艺/真人秀</option>
+<option value="综艺/纪实">综艺/纪实</option>
+<option value="综艺/舞台实录">综艺/舞台实录</option>
+<option value="综艺/音乐">综艺/音乐</option>
+<option value="综艺电影">综艺电影</option>
+<option value="网剧">网剧</option>
+<option value="网络剧">网络剧</option>
+<option value="网络剧/短剧">网络剧/短剧</option>
+<option value="网络动画">网络动画</option>
+<option value="网络电影">网络电影</option>
+<option value="脱口秀电影">脱口秀电影</option>
+        </select>
+    </div>
+</section>
+<section class="section container">
+    <div class="search-result-bar">
+        <h2 data-search-title>热门推荐</h2>
+        <span data-search-count></span>
+    </div>
+    <div class="movie-grid" data-search-results><article class="movie-card">
+    <a class="movie-card-link" href="./movie-1.html" aria-label="学校2021">
+        <div class="movie-poster">
+            <img src="./1.jpg" alt="学校2021" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>学校2021</h3>
+            <p>当所有人都盯着高考时,一所职高里的少年们正在用自己的方式杀出另一条血路。</p>
+            <div class="movie-meta-row">
+                <span>韩国</span>
+                <span>2021</span>
+            </div>
+            <div class="movie-tags"><span>校园</span><span>青春</span><span>现实</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-2.html" aria-label="宿敌2022">
+        <div class="movie-poster">
+            <img src="./2.jpg" alt="宿敌2022" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>宿敌2022</h3>
+            <p>两个从小一起长大的好友,一个成了警察,一个成了黑帮头目,但他们其实是同一个人格分裂出来的。</p>
+            <div class="movie-meta-row">
+                <span>印度</span>
+                <span>2022</span>
+            </div>
+            <div class="movie-tags"><span>动作</span><span>惊悚</span><span>剧情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-3.html" aria-label="倾国倾城">
+        <div class="movie-poster">
+            <img src="./3.jpg" alt="倾国倾城" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>倾国倾城</h3>
+            <p>一个容貌平平但精通商道的女主入宫选秀,她决定不靠美色,而是通过做空后宫的经济体系来干掉所有对手。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2023</span>
+            </div>
+            <div class="movie-tags"><span>古装</span><span>宫斗</span><span>权谋</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-4.html" aria-label="爱在哈佛国语">
+        <div class="movie-poster">
+            <img src="./4.jpg" alt="爱在哈佛国语" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>爱在哈佛国语</h3>
+            <p>韩国留学生李书仁在哈佛法学院与天才金贤宇从竞争到相恋,却因一场诉讼被迫分离。</p>
+            <div class="movie-meta-row">
+                <span>韩国</span>
+                <span>2004</span>
+            </div>
+            <div class="movie-tags"><span>爱情</span><span>校园</span><span>法学院</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-5.html" aria-label="阿凡达3">
+        <div class="movie-poster">
+            <img src="./5.jpg" alt="阿凡达3" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>阿凡达3</h3>
+            <p>杰克·萨利带领海洋部落,面对来自潘多拉“灰烬部落”的火焰威胁,以及人类更隐秘的入侵。</p>
+            <div class="movie-meta-row">
+                <span>美国</span>
+                <span>2025</span>
+            </div>
+            <div class="movie-tags"><span>科幻</span><span>动作</span><span>冒险</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-6.html" aria-label="97家有囍事">
+        <div class="movie-poster">
+            <img src="./6.jpg" alt="97家有囍事" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>97家有囍事</h3>
+            <p>1997前夕,香港一个普通家庭迎来三桩囍事,却桩桩都成了“惊吓”。</p>
+            <div class="movie-meta-row">
+                <span>中国香港</span>
+                <span>2025</span>
+            </div>
+            <div class="movie-tags"><span>喜剧</span><span>家庭</span><span>贺岁</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-7.html" aria-label="伪装">
+        <div class="movie-poster">
+            <img src="./7.jpg" alt="伪装" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>伪装</h3>
+            <p>一名患有脸盲症的刑警为破获连环命案,不得不卧底进入一个全员整容的犯罪集团。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2025</span>
+            </div>
+            <div class="movie-tags"><span>悬疑</span><span>犯罪</span><span>身份互换</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-8.html" aria-label="既然出生就环游世界3">
+        <div class="movie-poster">
+            <img src="./8.jpg" alt="既然出生就环游世界3" loading="lazy">
+            
+            <span class="movie-type">综艺/真人秀</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>既然出生就环游世界3</h3>
+            <p>这一季,明星们被空投到撒哈拉沙漠,只带一张写有“回家”两个字的纸条和24小时生存物资。</p>
+            <div class="movie-meta-row">
+                <span>韩国</span>
+                <span>2026</span>
+            </div>
+            <div class="movie-tags"><span>旅行</span><span>冒险</span><span>背包客</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-9.html" aria-label="爱·重来">
+        <div class="movie-poster">
+            <img src="./9.jpg" alt="爱·重来" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>爱·重来</h3>
+            <p>妻子因车祸失忆,只记得大学时代的恋人,却忘了自己已经结婚十年。</p>
+            <div class="movie-meta-row">
+                <span>中国台湾</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>爱情</span><span>剧情</span><span>奇幻</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-10.html" aria-label="忍者神龟:崛起">
+        <div class="movie-poster">
+            <img src="./10.jpg" alt="忍者神龟:崛起" loading="lazy">
+            
+            <span class="movie-type">动画电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>忍者神龟:崛起</h3>
+            <p>当纽约被外星机械军团占领,四只神龟意外获得超能力,却发现最大威胁来自未来的自己。</p>
+            <div class="movie-meta-row">
+                <span>美国</span>
+                <span>2023</span>
+            </div>
+            <div class="movie-tags"><span>动作</span><span>科幻</span><span>冒险</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-11.html" aria-label="仙乐飘飘">
+        <div class="movie-poster">
+            <img src="./11.jpg" alt="仙乐飘飘" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>仙乐飘飘</h3>
+            <p>过气女歌手在临终病房收到一盘神秘磁带,放出的歌声竟让她重返18岁那年的歌厅。</p>
+            <div class="movie-meta-row">
+                <span>中国香港</span>
+                <span>2023</span>
+            </div>
+            <div class="movie-tags"><span>奇幻</span><span>音乐</span><span>剧情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-12.html" aria-label="焦点">
+        <div class="movie-poster">
+            <img src="./12.jpg" alt="焦点" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>焦点</h3>
+            <p>一家都市报的调查记者发现,三年前那篇获奖新闻的所有核心事实,都是主编编造的。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>剧情</span><span>悬疑</span><span>职场</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-13.html" aria-label="强扭的瓜">
+        <div class="movie-poster">
+            <img src="./13.jpg" alt="强扭的瓜" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>强扭的瓜</h3>
+            <p>为了村里拆迁款,一对互相看不顺眼的死对头被迫领证结婚。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>喜剧</span><span>爱情</span><span>相亲</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-14.html" aria-label="夜间女妖">
+        <div class="movie-poster">
+            <img src="./14.jpg" alt="夜间女妖" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>夜间女妖</h3>
+            <p>柏林夜晚频发的女性遇袭案背后,有人在用最古老的方式“复仇”。</p>
+            <div class="movie-meta-row">
+                <span>德国</span>
+                <span>2018</span>
+            </div>
+            <div class="movie-tags"><span>恐怖</span><span>悬疑</span><span>都市传说</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-15.html" aria-label="蛋黄人">
+        <div class="movie-poster">
+            <img src="./15.jpg" alt="蛋黄人" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>蛋黄人</h3>
+            <p>一名社畜发现自己每天早上吃的蛋黄能开口说话,而且自称是她的“内在人格”。</p>
+            <div class="movie-meta-row">
+                <span>日本</span>
+                <span>2025</span>
+            </div>
+            <div class="movie-tags"><span>动画</span><span>奇幻</span><span>治愈</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-16.html" aria-label="斯蒂芬·劳伦斯被害案">
+        <div class="movie-poster">
+            <img src="./16.jpg" alt="斯蒂芬·劳伦斯被害案" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>斯蒂芬·劳伦斯被害案</h3>
+            <p>还原1993年伦敦黑人少年斯蒂芬·劳伦斯被种族主义者杀害后,其父母长达十八年的艰难正义追寻。</p>
+            <div class="movie-meta-row">
+                <span>英国</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>犯罪</span><span>纪实</span><span>种族</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-17.html" aria-label="不是钱的事2012">
+        <div class="movie-poster">
+            <img src="./17.jpg" alt="不是钱的事2012" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>不是钱的事2012</h3>
+            <p>东北小村庄的村民们想致富却总跑偏,最后发现“不是钱的事”,是人心的拧巴。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2012</span>
+            </div>
+            <div class="movie-tags"><span>喜剧</span><span>农村</span><span>励志</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-18.html" aria-label="邪神与厨二病少女">
+        <div class="movie-poster">
+            <img src="./18.jpg" alt="邪神与厨二病少女" loading="lazy">
+            
+            <span class="movie-type">网络动画</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>邪神与厨二病少女</h3>
+            <p>中二病少女莉莉在家召唤邪神准备签订契约统治世界,结果召唤出来的邪神是个只想宅家打游戏的老赖。</p>
+            <div class="movie-meta-row">
+                <span>日本</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>喜剧</span><span>奇幻</span><span>中二病</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-19.html" aria-label="诺姆·麦克唐纳:毫无特别">
+        <div class="movie-poster">
+            <img src="./19.jpg" alt="诺姆·麦克唐纳:毫无特别" loading="lazy">
+            
+            <span class="movie-type">电影/纪录</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>诺姆·麦克唐纳:毫无特别</h3>
+            <p>已故喜剧大师诺姆·麦克唐纳的最后一场未公开演出,以及他私下对“搞笑”的拆解与反思。</p>
+            <div class="movie-meta-row">
+                <span>美国</span>
+                <span>2024</span>
+            </div>
+            <div class="movie-tags"><span>纪录片</span><span>传记</span><span>喜剧</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-20.html" aria-label="红槐花">
+        <div class="movie-poster">
+            <img src="./20.jpg" alt="红槐花" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>红槐花</h3>
+            <p>一株红槐花树下,两个家族、三代人的爱恨纠葛在抗日烽火中走向无法挽回的结局。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2012</span>
+            </div>
+            <div class="movie-tags"><span>剧情</span><span>爱情</span><span>历史</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-21.html" aria-label="黑色弹珠">
+        <div class="movie-poster">
+            <img src="./21.jpg" alt="黑色弹珠" loading="lazy">
+            
+            <span class="movie-type">电影</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>黑色弹珠</h3>
+            <p>一个失忆的男人在弹珠房醒来,口袋里只有一颗黑色弹珠,那是他找回身份的唯一线索。</p>
+            <div class="movie-meta-row">
+                <span>日本</span>
+                <span>2022</span>
+            </div>
+            <div class="movie-tags"><span>悬疑</span><span>犯罪</span><span>剧情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-22.html" aria-label="逆转监督">
+        <div class="movie-poster">
+            <img src="./22.jpg" alt="逆转监督" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>逆转监督</h3>
+            <p>一位坐冷板凳的监督用反常识战术,把垫底球队带向冠军。</p>
+            <div class="movie-meta-row">
+                <span>日本</span>
+                <span>2026</span>
+            </div>
+            <div class="movie-tags"><span>剧情</span><span>运动</span><span>足球</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-23.html" aria-label="地球之极·侣行第十季">
+        <div class="movie-poster">
+            <img src="./23.jpg" alt="地球之极·侣行第十季" loading="lazy">
+            
+            <span class="movie-type">综艺</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>地球之极·侣行第十季</h3>
+            <p>夫妻搭档张昕宇和梁红,第十季挑战人类禁地——冬季徒步穿越西伯利亚“死亡之路”。</p>
+            <div class="movie-meta-row">
+                <span>中国大陆</span>
+                <span>2025</span>
+            </div>
+            <div class="movie-tags"><span>真人秀</span><span>探险</span><span>环球探险</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card">
+    <a class="movie-card-link" href="./movie-24.html" aria-label="千谎百计第三季">
+        <div class="movie-poster">
+            <img src="./24.jpg" alt="千谎百计第三季" loading="lazy">
+            
+            <span class="movie-type">剧集</span>
+            <span class="play-chip">▶</span>
+        </div>
+        <div class="movie-card-body">
+            <h3>千谎百计第三季</h3>
+            <p>天才人类测谎仪卡尔卷入了一场骗局中的骗局,这次他连自己的记忆都不敢相信。</p>
+            <div class="movie-meta-row">
+                <span>美国</span>
+                <span>2026</span>
+            </div>
+            <div class="movie-tags"><span>剧情</span><span>悬疑</span><span>犯罪</span></div>
+        </div>
+    </a>
+</article></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a class="footer-brand" href="./index.html">
+                <span class="brand-icon">▶</span>
+                <span>免费在线视频</span>
+            </a>
+            <p>免费在线视频平台，汇集国产、欧美、亚洲、日韩等50+优质视频资源。提供高清流畅播放，免费观看热门影视作品，每日更新，打造纯净的免费影视观看体验。</p>
+        </div>
+        <div>
+            <h2>快速入口</h2>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类总览</a>
+            <a href="./ranking.html">热门排行</a>
+            <a href="./search.html">视频搜索</a>
+        </div>
+        <div>
+            <h2>精选分类</h2>
+            <a href="./category-domestic.html">国产华语</a>
+                <a href="./category-korea-japan.html">日韩专区</a>
+                <a href="./category-euro-america.html">欧美大片</a>
+                <a href="./category-asian.html">亚洲影像</a>
+                <a href="./category-action-suspense.html">动作悬疑</a>
+                <a href="./category-romance-drama.html">爱情剧情</a>
+        </div>
+        <div>
+            <h2>热门关键词</h2>
+            <p>国产视频 · 欧美视频 · 亚洲视频 · 日韩视频 · 高清播放 · 免费观看</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 免费在线视频</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-data.js"></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5033714,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5033714&101" alt="unique visitors counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+</html>
